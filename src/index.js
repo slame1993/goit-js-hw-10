@@ -1,5 +1,7 @@
 import { fetchBreeds, fetchCatByBreed } from './cat-api';
 import Notiflix from 'notiflix';
+import SlimSelect from 'slim-select';
+import 'slim-select/dist/slimselect.css';
 import axios from 'axios';
 
 axios.defaults.headers.common['x-api-key'] =
